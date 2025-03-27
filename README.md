@@ -13,7 +13,6 @@
 ![Image](https://github.com/user-attachments/assets/3a381d1e-b60b-4077-b0b4-4c2fd339fa80)
 ![Image](https://github.com/user-attachments/assets/039ef7b1-772f-4adc-a767-89eb37087479)
 ![Image](https://github.com/user-attachments/assets/1ead66c5-c93e-48af-9f85-44eb27e5c297)
-# Documentation
-https://app.swaggerhub.com/apis-docs/Washingtonwei/hogwarts-openapi/3.2.0
+
 
 
