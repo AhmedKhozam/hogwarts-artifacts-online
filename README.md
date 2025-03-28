@@ -1,8 +1,8 @@
 # hogwarts-artifacts-online
-![Image](https://github.com/user-attachments/assets/f85f0eeb-0b0e-4cb3-8730-b3137b8fc1cc)
-![Image](https://github.com/user-attachments/assets/d8a8387e-3634-4efe-aeda-9b3ecbedf7db)
-![Image](https://github.com/user-attachments/assets/28d7432a-8aba-454e-861f-bd7f360973f7)
-![Image](https://github.com/user-attachments/assets/b9d02734-60e3-419d-b362-7c2292137bbf)
+![Image](https://github.com/user-attachments/assets/eaf5e214-6725-498b-8d1f-7817be0f052f)
+![Image](https://github.com/user-attachments/assets/bebd0e01-309c-4dbc-b30d-22958e4daca2)
+![Image](https://github.com/user-attachments/assets/9d40f0cb-5681-4507-be83-b730fe84ca40)
+![Image](https://github.com/user-attachments/assets/7f91c38c-799f-4f87-9dad-efd6c7b5fb72)
 ![Image](https://github.com/user-attachments/assets/2ec4c134-e9e2-4665-9d8f-9818e0ebece2)
 ![Image](https://github.com/user-attachments/assets/51a25091-05fb-48fc-b6b7-bcc09d126829)
 ![Image](https://github.com/user-attachments/assets/d3660704-35fb-4152-88e2-79d0178d61a2)
