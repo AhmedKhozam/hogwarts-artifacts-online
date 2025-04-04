@@ -1,5 +1,6 @@
 package com.hogwarts.artifact;
 
+
 import com.hogwarts.artifact.utils.IdWorker;
 import com.hogwarts.system.exception.ObjectNotFoundException;
 import com.hogwarts.wizard.Wizard;

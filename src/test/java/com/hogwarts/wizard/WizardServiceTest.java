@@ -1,5 +1,6 @@
 package com.hogwarts.wizard;
 
+
 import com.hogwarts.artifact.Artifact;
 import com.hogwarts.artifact.ArtifactRepository;
 import com.hogwarts.system.exception.ObjectNotFoundException;
