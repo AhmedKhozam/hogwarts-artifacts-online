@@ -1,6 +1,7 @@
 package com.hogwarts.hogwartsuser;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+
 import com.hogwarts.hogwartsuser.dto.UserDto;
 import com.hogwarts.system.StatusCode;
 import com.hogwarts.system.exception.ObjectNotFoundException;
@@ -13,7 +14,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
-import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.MockMvc;
 
@@ -30,6 +30,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 @AutoConfigureMockMvc(addFilters = false)
 class UserControllerTest {
+
     @Autowired
     MockMvc mockMvc;
 
@@ -212,4 +213,5 @@ class UserControllerTest {
                 .andExpect(jsonPath("$.message").value("Could not find user with Id 5 :("))
                 .andExpect(jsonPath("$.data").isEmpty());
     }
+
 }

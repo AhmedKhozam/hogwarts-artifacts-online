@@ -1,5 +1,6 @@
 package com.hogwarts.security;
 
+
 import com.hogwarts.hogwartsuser.HogwartsUser;
 import com.hogwarts.hogwartsuser.MyUserPrincipal;
 import com.hogwarts.hogwartsuser.converter.UserToUserDtoConverter;
@@ -17,25 +18,26 @@ public class AuthService {
 
     private final UserToUserDtoConverter userToUserDtoConverter;
 
+
     public AuthService(JwtProvider jwtProvider, UserToUserDtoConverter userToUserDtoConverter) {
         this.jwtProvider = jwtProvider;
         this.userToUserDtoConverter = userToUserDtoConverter;
     }
 
-
     public Map<String, Object> createLoginInfo(Authentication authentication) {
-        //create user info
-        MyUserPrincipal principal = (MyUserPrincipal) authentication.getPrincipal();
+        // Create user info.
+        MyUserPrincipal principal = (MyUserPrincipal)authentication.getPrincipal();
         HogwartsUser hogwartsUser = principal.getHogwartsUser();
         UserDto userDto = this.userToUserDtoConverter.convert(hogwartsUser);
-
-        //create jwt
+        // Create a JWT.
         String token = this.jwtProvider.createToken(authentication);
 
-
         Map<String, Object> loginResultMap = new HashMap<>();
+
         loginResultMap.put("userInfo", userDto);
         loginResultMap.put("token", token);
+
         return loginResultMap;
     }
+
 }

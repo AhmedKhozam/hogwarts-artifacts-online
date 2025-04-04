@@ -39,7 +39,7 @@ class WizardControllerTest {
     ObjectMapper objectMapper;
 
     @MockitoBean
-     WizardService wizardService;
+    WizardService wizardService;
 
     List<Wizard> wizards;
 
